@@ -3,8 +3,10 @@ using UnityEngine;
 public class FlightController : MonoBehaviour
 {
     [SerializeField] private AudioSource engineAudio;
-    [SerializeField] private AudioSource landingAudio;
-    [SerializeField] private AudioSource crashAudio;
+    [SerializeField] private AudioClip landingAudio;
+    [SerializeField] private AudioClip crashAudio;
+
+    private bool isEngineStart = false;
 
     public float speed = 0f;
     public float maxSpeed = 500f;
@@ -65,8 +67,13 @@ public class FlightController : MonoBehaviour
         }
 
         if (Input.GetKeyDown(KeyCode.M)) {
+            isEngineStart = true;
             engineAudio.clip = landingAudio;
             engineAudio.Play(); 
+        }
+
+        if (isEngineStart == false) {
+            return;
         }
 
         if (transform.position.y < 2f) {
