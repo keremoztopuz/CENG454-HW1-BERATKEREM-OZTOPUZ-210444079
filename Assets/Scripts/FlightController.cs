@@ -53,11 +53,11 @@ public class FlightController : MonoBehaviour
         }
 
         if (Input.GetKey(KeyCode.Q)) {
-            transform.Rotate(Vector3.up*Time.deltaTime*turnSpeed);
+            transform.Rotate(Vector3.down*Time.deltaTime*turnSpeed);
         }
 
         if (Input.GetKey(KeyCode.E)) {
-            transform.Rotate(Vector3.down*Time.deltaTime*turnSpeed);
+            transform.Rotate(Vector3.up*Time.deltaTime*turnSpeed);
         }
 
         if (transform.position.y < 2f) {
