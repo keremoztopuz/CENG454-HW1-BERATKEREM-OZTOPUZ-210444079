@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class FlightController : MonoBehaviour
 {
+    [SerializeField] private AudioSource engineAudio;
+
     public float speed = 0f;
     public float maxSpeed = 500f;
     public float acceleration = 10f;
@@ -60,8 +62,13 @@ public class FlightController : MonoBehaviour
             transform.Rotate(Vector3.up*Time.deltaTime*turnSpeed);
         }
 
+        if (Input.GetKeyDown(KeyCode.M)) {
+            engineAudio.Play();
+        }
+
         if (transform.position.y < 2f) {
             transform.position = new Vector3(transform.position.x, 2f, transform.position.z);
         }
+
     }
 }
