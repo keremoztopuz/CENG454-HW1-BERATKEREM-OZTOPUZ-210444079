@@ -2804,3 +2804,259 @@ Memory consumption went from 161.4 MB to 158.3 MB.
 Total: 5.994208 ms (FindLiveObjects: 0.355541 ms CreateObjectMapping: 0.121917 ms MarkObjects: 4.321292 ms  DeleteObjects: 1.195250 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 931.818471 seconds.
+  path: Assets/Settings/Mobile_RPAsset.asset
+  artifactKey: Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Settings/Mobile_RPAsset.asset using Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f318458ca29d109fba29138abeb866a7') in 0.074360208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.665170 seconds.
+  path: Assets/Polyeler/Simple Aircraft Pack/Materials/Aircraft/Textures/Tex2.png
+  artifactKey: Guid(718b2c64ba6698149888c32d2e7220ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Polyeler/Simple Aircraft Pack/Materials/Aircraft/Textures/Tex2.png using Guid(718b2c64ba6698149888c32d2e7220ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1c28fc94bb1cf6bf8469a3adf89fe4ed') in 0.024078459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Polyeler/Simple Aircraft Pack/DemoScene/Simple Aircraft Pack Sample(1)_Profiles/Post Profile(1).asset
+  artifactKey: Guid(f00f29aef50dc5e4cb2b732dee503c8a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Polyeler/Simple Aircraft Pack/DemoScene/Simple Aircraft Pack Sample(1)_Profiles/Post Profile(1).asset using Guid(f00f29aef50dc5e4cb2b732dee503c8a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8485b0bb40c30573dbb85545d818e27f') in 0.001858458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Polyeler/Simple Aircraft Pack/README.txt
+  artifactKey: Guid(c1b550f45f312cb42bb97f3675518c9e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Polyeler/Simple Aircraft Pack/README.txt using Guid(c1b550f45f312cb42bb97f3675518c9e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '74d11d124d2ef74caf1a981531ece774') in 0.001977125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Polyeler/Simple Aircraft Pack/DemoScene/Simple Aircraft Pack Sample(1)_Profiles/Post Profile(3).asset
+  artifactKey: Guid(249347fa4efae80428e1810212a86715) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Polyeler/Simple Aircraft Pack/DemoScene/Simple Aircraft Pack Sample(1)_Profiles/Post Profile(3).asset using Guid(249347fa4efae80428e1810212a86715) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '04d6a5e594b1d5aa877ef2d72466dfbe') in 0.001386458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Polyeler/Simple Aircraft Pack/Meshes/Passenger Aircraft V1.fbx
+  artifactKey: Guid(ae26a9ceb81b45046bf64901a06c1869) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Polyeler/Simple Aircraft Pack/Meshes/Passenger Aircraft V1.fbx using Guid(ae26a9ceb81b45046bf64901a06c1869) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'daed3806f6865f1a71448fc5b1bc2f95') in 0.032534292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 46
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Polyeler/Simple Aircraft Pack/Materials/Aircraft/Textures/Tex1.png
+  artifactKey: Guid(61c0fb26ff400544ebecbe267a2464f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Polyeler/Simple Aircraft Pack/Materials/Aircraft/Textures/Tex1.png using Guid(61c0fb26ff400544ebecbe267a2464f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0412e5408b305504e2599961b060c259') in 0.003490375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Polyeler/Simple Aircraft Pack/Prefabs/Passenger Aircraft V1.prefab
+  artifactKey: Guid(060c6d6f715feac43923cb94fdb26dc8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Polyeler/Simple Aircraft Pack/Prefabs/Passenger Aircraft V1.prefab using Guid(060c6d6f715feac43923cb94fdb26dc8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '885a194966b9d865ab1b1f0f71d02116') in 0.003655292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 48
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Polyeler/Simple Aircraft Pack/Prefabs/Passenger Aircraft V2.prefab
+  artifactKey: Guid(2ff8c8d06f9ed614c9f3b44837944535) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Polyeler/Simple Aircraft Pack/Prefabs/Passenger Aircraft V2.prefab using Guid(2ff8c8d06f9ed614c9f3b44837944535) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0d25ade5911839dbcbaaeb2d6421d3cd') in 0.002142917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 48
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Polyeler/Simple Aircraft Pack/Materials/Apron
+  artifactKey: Guid(a2d9a10ab5c048e448f22cd3360f6b94) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Polyeler/Simple Aircraft Pack/Materials/Apron using Guid(a2d9a10ab5c048e448f22cd3360f6b94) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e9c9f488fbd739c8d824a7234d4bfb4b') in 0.001405292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Polyeler/Simple Aircraft Pack/Meshes/Passenger Aircraft V2.fbx
+  artifactKey: Guid(1969077d58e18384dbec397ec49e985c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Polyeler/Simple Aircraft Pack/Meshes/Passenger Aircraft V2.fbx using Guid(1969077d58e18384dbec397ec49e985c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '731fe82c22c6384317298bb5be8affd5') in 0.005911125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 46
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Polyeler/Simple Aircraft Pack/Materials/Aircraft/Tex2 illumination.mat
+  artifactKey: Guid(b8573f5bc8599f64199d3f5d1b286fc1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Polyeler/Simple Aircraft Pack/Materials/Aircraft/Tex2 illumination.mat using Guid(b8573f5bc8599f64199d3f5d1b286fc1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '270bbaf7f00e314e923f25be94a7e9e7') in 0.004548542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Polyeler/Simple Aircraft Pack/Materials/Aircraft/Tex1 illumination.mat
+  artifactKey: Guid(727f8c7b8b7a22444b5a1b350904d813) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Polyeler/Simple Aircraft Pack/Materials/Aircraft/Tex1 illumination.mat using Guid(727f8c7b8b7a22444b5a1b350904d813) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e1e9d31cd092f2d1e722453daac6097c') in 0.00257325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Polyeler/Simple Aircraft Pack/Meshes/Passenger Aircraft V3.fbx
+  artifactKey: Guid(63acf3fb5905fd843b4e8f044246ee10) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Polyeler/Simple Aircraft Pack/Meshes/Passenger Aircraft V3.fbx using Guid(63acf3fb5905fd843b4e8f044246ee10) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd99f5ed6403e896fae918305aca29dc9') in 0.007935542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 46
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Polyeler/Simple Aircraft Pack/DemoScene/Simple Aircraft Pack Sample(1).unity
+  artifactKey: Guid(9f6d542955f5da044ab70368838e535a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Polyeler/Simple Aircraft Pack/DemoScene/Simple Aircraft Pack Sample(1).unity using Guid(9f6d542955f5da044ab70368838e535a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'df18f336d6f429a19698e35561bbda5f') in 0.001601375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Polyeler/Simple Aircraft Pack/Meshes
+  artifactKey: Guid(933d15458ee0f834e96c03d7cda54ff7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Polyeler/Simple Aircraft Pack/Meshes using Guid(933d15458ee0f834e96c03d7cda54ff7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f69514b6af9122193c0b7e60d08cf9b4') in 0.001603917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Polyeler/Simple Aircraft Pack/Materials/Aircraft/Tex1.mat
+  artifactKey: Guid(eb861185b073d21469924e529253d276) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Polyeler/Simple Aircraft Pack/Materials/Aircraft/Tex1.mat using Guid(eb861185b073d21469924e529253d276) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4962b9d93cee1d9ceb6fed9d23a1e20e') in 0.002789625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Polyeler/Simple Aircraft Pack/Prefabs
+  artifactKey: Guid(5e6de68288e0ec64a95ff257e7e744f8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Polyeler/Simple Aircraft Pack/Prefabs using Guid(5e6de68288e0ec64a95ff257e7e744f8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0e870057a98e30e94c894aa076d4a1f3') in 0.001428458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Polyeler/Simple Aircraft Pack/Materials/Apron/Textures/apronTex.png
+  artifactKey: Guid(16ef61fc1f392c04bb3a50409c6fecc7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Polyeler/Simple Aircraft Pack/Materials/Apron/Textures/apronTex.png using Guid(16ef61fc1f392c04bb3a50409c6fecc7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b51602f2ef86ede1cbbf80d59a2d78ec') in 0.003029917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Polyeler/Simple Aircraft Pack
+  artifactKey: Guid(140e3a5a29c7c4e408f0b4a5f56b4ab9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Polyeler/Simple Aircraft Pack using Guid(140e3a5a29c7c4e408f0b4a5f56b4ab9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a77443db10c3c69b9fde34fd12ec9a83') in 0.001203042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Polyeler/Simple Aircraft Pack/Materials/Aircraft/Tex2.mat
+  artifactKey: Guid(89372c2db16fcd04b852048b6a613766) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Polyeler/Simple Aircraft Pack/Materials/Aircraft/Tex2.mat using Guid(89372c2db16fcd04b852048b6a613766) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'eb73540abc168557e3659878b35fca35') in 0.003333959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Polyeler/Simple Aircraft Pack/Materials/Aircraft/Textures/Tex2_illumination.png
+  artifactKey: Guid(e23788ba5edc9564094f91dea2f3e6f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Polyeler/Simple Aircraft Pack/Materials/Aircraft/Textures/Tex2_illumination.png using Guid(e23788ba5edc9564094f91dea2f3e6f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '703e51ac1907d4e7caef733bb24d58c1') in 0.003180625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Polyeler/Simple Aircraft Pack/DemoScene
+  artifactKey: Guid(b0ac2dabb4c3a9a4988ace533e7cd274) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Polyeler/Simple Aircraft Pack/DemoScene using Guid(b0ac2dabb4c3a9a4988ace533e7cd274) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '450fbadb2138681dbd922c3b99ef2eaf') in 0.001009667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.233543 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/Mesh/BackgroundMesh.fbx
+  artifactKey: Guid(b9ae429aca254fa41966db24b9e53232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/Mesh/BackgroundMesh.fbx using Guid(b9ae429aca254fa41966db24b9e53232) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c4570aa79f8959f35424575e85b75a6') in 0.214275209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/Mesh/SamplesSpotlightModel.fbx
+  artifactKey: Guid(4e8732d4875cc0647b52b55a218072b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/Mesh/SamplesSpotlightModel.fbx using Guid(4e8732d4875cc0647b52b55a218072b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c57d53d3a1cfaab82aba4378d1563822') in 0.029102459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/Mesh/SamplesFloorSpotlight.fbx
+  artifactKey: Guid(1dbf28c1bb322474d981b2dc555e28b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/Mesh/SamplesFloorSpotlight.fbx using Guid(1dbf28c1bb322474d981b2dc555e28b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c1c376060364f85a5a13864a87ec8ff1') in 0.026265125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debug/ProbeSamplingDebugMesh.fbx
+  artifactKey: Guid(20be25aac4e22ee49a7db76fb3df6de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debug/ProbeSamplingDebugMesh.fbx using Guid(20be25aac4e22ee49a7db76fb3df6de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7309ca8b0469ed0fc575ec1bbd211ac9') in 0.007060958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Polyeler/Simple Aircraft Pack/Meshes/Passenger Aircraft V1.fbx
+  artifactKey: Guid(ae26a9ceb81b45046bf64901a06c1869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polyeler/Simple Aircraft Pack/Meshes/Passenger Aircraft V1.fbx using Guid(ae26a9ceb81b45046bf64901a06c1869) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fdeaaee7ac51d8c801c93d7878f55986') in 0.04454525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 46
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/Mesh/SamplesFixture.fbx
+  artifactKey: Guid(b28fa67a0ff82c5478f27368dc627683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/Mesh/SamplesFixture.fbx using Guid(b28fa67a0ff82c5478f27368dc627683) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '116fc20b3647e7a035a85b11df7d0171') in 0.015034875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Polyeler/Simple Aircraft Pack/Meshes/Passenger Aircraft V3.fbx
+  artifactKey: Guid(63acf3fb5905fd843b4e8f044246ee10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polyeler/Simple Aircraft Pack/Meshes/Passenger Aircraft V3.fbx using Guid(63acf3fb5905fd843b4e8f044246ee10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83080226f4dffef9f5ae83b6ace6ada9') in 0.043061333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 46
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Polyeler/Simple Aircraft Pack/Meshes/Passenger Aircraft V2.fbx
+  artifactKey: Guid(1969077d58e18384dbec397ec49e985c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polyeler/Simple Aircraft Pack/Meshes/Passenger Aircraft V2.fbx using Guid(1969077d58e18384dbec397ec49e985c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a73e75b59e9cb5fba47c624c6dbbe8a') in 0.060807417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 46
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.491085 seconds.
+  path: Assets/Polyeler/Simple Aircraft Pack
+  artifactKey: Guid(140e3a5a29c7c4e408f0b4a5f56b4ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polyeler/Simple Aircraft Pack using Guid(140e3a5a29c7c4e408f0b4a5f56b4ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c5fa11402b3dfccfc3d4626c6f7fb3d') in 0.000321875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
