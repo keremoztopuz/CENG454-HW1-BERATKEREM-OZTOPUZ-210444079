@@ -10,9 +10,9 @@ public class FlightController : MonoBehaviour
 
     public float speed = 0f;
     public float maxSpeed = 500f;
-    public float acceleration = 10f;
+    public float acceleration = 25f;
     public float deceleration = 10f;
-    public float turnSpeed = 100f;
+    public float turnSpeed = 10f;
 
     private Rigidbody rb;
     
