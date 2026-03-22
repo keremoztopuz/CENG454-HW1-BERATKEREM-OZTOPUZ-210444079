@@ -6,7 +6,7 @@ public class FlightController : MonoBehaviour
     [SerializeField] private AudioClip landingAudio;
     [SerializeField] private AudioClip crashAudio;
 
-    public GameObject collisionEffect;
+    public AudioClip collisionEffect;
     public GameObject gameManager;
 
     private bool isEngineStart = false;
