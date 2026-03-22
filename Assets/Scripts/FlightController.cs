@@ -6,6 +6,9 @@ public class FlightController : MonoBehaviour
     [SerializeField] private AudioClip landingAudio;
     [SerializeField] private AudioClip crashAudio;
 
+    public GameObject collisionEffect;
+    public GameObject gameManager;
+
     private bool isEngineStart = false;
 
     public float speed = 0f;
@@ -80,5 +83,21 @@ public class FlightController : MonoBehaviour
             transform.position = new Vector3(transform.position.x, 2f, transform.position.z);
         }
 
+    }
+
+    private void OnTriggerEnter(Collider other) {
+        if (other.gameObject.CompareTag("Tower")) {
+            engineAudio.Stop();
+            if (crashAudio != null) {
+                AudioSource.PlayClipAtPoint(crashAudio, transform.position);
+            }
+            if (collisionEffect != null) {
+                Instantiate(collisionEffect, transform.position, Quaternion.identity);
+            }
+            if (gameManager != null) {
+                gameManager.SendMessage("GameOver");
+            }
+            gameObject.SetActive(false);
+        }
     }
 }

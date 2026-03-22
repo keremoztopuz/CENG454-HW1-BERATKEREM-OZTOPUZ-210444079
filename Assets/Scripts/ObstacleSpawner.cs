@@ -33,19 +33,16 @@ public class ObstacleSpawner : MonoBehaviour
             spawnPosition.x += coridorDeflection;
 
             Vector3 rightPosition = spawnPosition;
-            rightPosition.x = spawnPosition.x + coridorDeflection + 30f;
+            rightPosition.x = spawnPosition.x + 30f;
 
             GameObject rightTower = Instantiate(SkyScraperPrefab, rightPosition, Quaternion.identity);
             Destroy(rightTower, 15f);
 
             Vector3 leftPosition = spawnPosition;
-            leftPosition.x = spawnPosition.x + coridorDeflection - 30f;
+            leftPosition.x = spawnPosition.x - 30f;
 
             GameObject leftTower = Instantiate(SkyScraperPrefab, leftPosition, Quaternion.identity);
             Destroy(leftTower, 15f);
-
-            GameObject newTower = Instantiate(SkyScraperPrefab, spawnPosition, Quaternion.identity);
-            Destroy(newTower, 15f);
 
             if (spawnTime > 0.5f) {
                 spawnTime -= 0.05f;
