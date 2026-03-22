@@ -8,6 +8,9 @@ public class FlightController : MonoBehaviour
 
     private bool isEngineStart = false;
 
+    public GameObject collisionEffect;
+    public GameObject gameManager; 
+
     public float speed = 0f;
     public float maxSpeed = 500f;
     public float acceleration = 25f;
@@ -79,6 +82,28 @@ public class FlightController : MonoBehaviour
         if (transform.position.y < 2f) {
             transform.position = new Vector3(transform.position.x, 2f, transform.position.z);
         }
-
     }
+
+    private void OnTriggerEnter(Collider other) {
+        if (other.gameObject.CompareTag("Tower")) {
+            engine.Audio.Stop();
+
+                if (crashAudio != null) {
+                    AudioSource.PlayClipAtPoint(crashAudio, transform.position);
+                }
+
+                if (collisionEffect != null) {
+                    Instantiate(collisionEffect, transform.position, Quaternion.identity);
+                }
+
+                if (gameManager != null) {
+                    gameManager.OnCrash();
+                }
+
+                gameObject.SetActive(false);
+
+                
+
+            }
+        }
 }
