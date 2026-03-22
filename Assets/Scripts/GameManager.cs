@@ -4,13 +4,22 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    public Text startText;
-    public Text gameOverText;
+    public GameObject startText;
+    public GameObject gameOverText;
     public GameObject tryAgainButton;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        if (gameOverText != null) {
+            gameOverText.gameObject.SetActive(false);
+        }
+        if (tryAgainButton != null) {
+            tryAgainButton.gameObject.SetActive(false);
+        }
+
+        if (startText != null) {
+            startText.gameObject.SetActive(true);
+        }
     }
 
     // Update is called once per frame
@@ -28,7 +37,7 @@ public class GameManager : MonoBehaviour
     }
 
     public void TryAgain() {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         Time.timeScale = 1f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
