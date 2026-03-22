@@ -86,7 +86,7 @@ public class FlightController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other) {
         if (other.gameObject.CompareTag("Tower")) {
-            engine.Audio.Stop();
+            engineAudio.Stop();
 
                 if (crashAudio != null) {
                     AudioSource.PlayClipAtPoint(crashAudio, transform.position);
