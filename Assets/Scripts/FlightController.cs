@@ -6,10 +6,10 @@ public class FlightController : MonoBehaviour
     [SerializeField] private AudioClip landingAudio;
     [SerializeField] private AudioClip crashAudio;
 
-    private bool isEngineStart = false;
-
     public GameObject collisionEffect;
-    public GameObject gameManager; 
+    public GameObject gameManager;
+
+    private bool isEngineStart = false;
 
     public float speed = 0f;
     public float maxSpeed = 500f;
@@ -82,28 +82,22 @@ public class FlightController : MonoBehaviour
         if (transform.position.y < 2f) {
             transform.position = new Vector3(transform.position.x, 2f, transform.position.z);
         }
+
     }
 
     private void OnTriggerEnter(Collider other) {
-        if (other.gameObject.CompareTag("Tower")) {
+        if (other.gameObject.CompareTag("Tower")) {
             engineAudio.Stop();
-
-                if (crashAudio != null) {
-                    AudioSource.PlayClipAtPoint(crashAudio, transform.position);
-                }
-
-                if (collisionEffect != null) {
-                    Instantiate(collisionEffect, transform.position, Quaternion.identity);
-                }
-
-                if (gameManager != null) {
-                    gameManager.SendMessage("GameOver");
-                }
-
-                gameObject.SetActive(false);
-
-                
-
+            if (crashAudio != null) {
+                AudioSource.PlayClipAtPoint(crashAudio, Camera.main.transform.position);
             }
+            if (collisionEffect != null) {
+                Instantiate(collisionEffect, transform.position, Quaternion.identity);
+            }
+            if (gameManager != null) {
+                gameManager.SendMessage("GameOver");
+            }
+            gameObject.SetActive(false);
         }
+    }
 }
