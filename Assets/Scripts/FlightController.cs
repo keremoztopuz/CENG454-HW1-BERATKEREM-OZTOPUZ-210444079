@@ -89,7 +89,7 @@ public class FlightController : MonoBehaviour
         if (other.gameObject.CompareTag("Tower")) {
             engineAudio.Stop();
             if (crashAudio != null) {
-                AudioSource.PlayClipAtPoint(crashAudio, transform.position);
+                AudioSource.PlayClipAtPoint(crashAudio, Camera.main.transform.position);
             }
             if (collisionEffect != null) {
                 Instantiate(collisionEffect, transform.position, Quaternion.identity);
