@@ -1,3 +1,4 @@
+# Unity Temel Çöp / Önbellek Klasörleri
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
@@ -6,8 +7,44 @@
 /[Logs]/
 /[MemoryCaptures]/
 /[UserSettings]/
-.vs/
-*.csproj
-*.sln
-.DS_Store
 
+# Visual Studio ve IDE Dosyaları
+.vs/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Mac ve Windows İşletim Sistemi Kalıntıları
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Crash ve Hata Logları
+sysinfo.txt
+*.crash
+
+# Büyük Boyutlu Build (Çıktı) Dosyaları
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# KULLANICI İSTEĞİ: Patlama (VFX) Paketleri ve Assetleri
+/Assets/UnityTechnologies/
+/Assets/UnityTechnologies.meta
