@@ -97,7 +97,7 @@ public class FlightController : MonoBehaviour
                 }
 
                 if (gameManager != null) {
-                    gameManager.OnCrash();
+                    gameManager.SendMessage("GameOver");
                 }
 
                 gameObject.SetActive(false);
