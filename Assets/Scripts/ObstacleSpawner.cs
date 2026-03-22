@@ -6,7 +6,7 @@ public class ObstacleSpawner : MonoBehaviour
     public Transform PlaneTransform;
 
     private float time = 0f;
-    private float spawnTime = 4f;
+    private float spawnTime = 12f;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -33,20 +33,20 @@ public class ObstacleSpawner : MonoBehaviour
             spawnPosition.x += coridorDeflection;
 
             Vector3 rightPosition = spawnPosition;
-            rightPosition.x = spawnPosition.x + 30f;
+            rightPosition.x = spawnPosition.x + 200f;
 
             GameObject rightTower = Instantiate(SkyScraperPrefab, rightPosition, Quaternion.identity);
             Destroy(rightTower, 15f);
 
             Vector3 leftPosition = spawnPosition;
-            leftPosition.x = spawnPosition.x - 30f;
+            leftPosition.x = spawnPosition.x - 200f;
 
             GameObject leftTower = Instantiate(SkyScraperPrefab, leftPosition, Quaternion.identity);
             Destroy(leftTower, 15f);
 
-            if (spawnTime > 0.5f) {
-                spawnTime -= 0.05f;
-            }
+            //if (spawnTime > 0.5f) {
+            //    spawnTime -= 0.05f;
+            //}
         }
     }
 }
