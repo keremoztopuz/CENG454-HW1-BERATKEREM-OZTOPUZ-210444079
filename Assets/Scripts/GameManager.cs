@@ -20,4 +20,15 @@ public class GameManager : MonoBehaviour
             startText.gameObject.SetActive(false);
         }
     }
+
+    public void GameOver() {
+        gameOverText.gameObject.SetActive(true);
+        tryAgainButton.gameObject.SetActive(true);
+        Time.timeScale = 0f;
+    }
+
+    public void TryAgain() {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        Time.timeScale = 1f;
+    }
 }
